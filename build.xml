@@ -11,13 +11,13 @@
     <target name="createJarFile" depends="createDirectory">
         <jar destfile="evaluator/lib/evaluator.jar" basedir="classes"/>
     </target>
-    <target name="copyShellFiles" depends="createJarFile">
+    <target name="copyShellFile" depends="createJarFile">
         <copy file="evaluator_sh/ta_evaluator.sh" todir="evaluator/bin"/>
     </target>
-    <target name="createZip" depends="runtest,createJarFile,copyReadMe">
+    <target name="createZip" depends="runtest,copyReadMe">
         <zip zipfile="evaluator.zip" basedir="evaluator"/>
     </target>
-    <target name="copyReadMe" depends="copyShellFiles">
+    <target name="copyReadMe" depends="copyShellFile">
         <copy file="README.md" todir="evaluator"/>
     </target>
     <target name="runtest" description="Runs the test you specify on the command
