@@ -1,0 +1,1 @@
+java -cp $EVALUATOR/lib/evaluator.jar tajahmed.cli.main $1

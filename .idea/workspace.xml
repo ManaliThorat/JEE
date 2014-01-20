@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="929a8f68-c6ad-465a-afd1-105d61f4a623" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluator_sh/ta_evaluator.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\JEE\src\tajahmed\cli\cli.java" afterPath="$PROJECT_DIR$/src/tajahmed/cli/evaluator.java" />
     </list>
     <ignored path="JEE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5472837" vertical-offset="0" max-vertical-offset="1696">
+            <state line="17" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="21" selection-end="21" vertical-scroll-proportion="0.032193158" vertical-offset="0" max-vertical-offset="994">
               <folding />
             </state>
           </provider>
@@ -437,7 +445,11 @@
       <created>1390217776043</created>
       <updated>1390217776043</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="build xml maintained">
+      <created>1390221328123</created>
+      <updated>1390221328123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,7 +498,8 @@
     </option>
     <MESSAGE value="release 0 completed" />
     <MESSAGE value="yml file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="yml file added" />
+    <MESSAGE value="build xml maintained" />
+    <option name="LAST_COMMIT_MESSAGE" value="build xml maintained" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -534,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="36" selection-end="36" vertical-scroll-proportion="0.032193158" vertical-offset="0" max-vertical-offset="994">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tajahmed/cli/evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
@@ -550,7 +556,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5472837" vertical-offset="0" max-vertical-offset="1696">
+        <state line="17" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="21" selection-end="21" vertical-scroll-proportion="0.032193158" vertical-offset="0" max-vertical-offset="994">
           <folding />
         </state>
       </provider>
